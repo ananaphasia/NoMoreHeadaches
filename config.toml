@@ -1,5 +1,5 @@
 title = "No More Headaches"
-baseURL = "https://www.example.com"
+baseURL = "http://as4mo3.github.io/NoMoreHeadaches/docs/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 publishDir = "docs"
@@ -22,6 +22,10 @@ publishDir = "docs"
     weight = 5
     name = "Contact"
     url = "/contact"
+  [[menu.header]]
+    weight = 6
+    name = "Form"
+    url = "/form"
 
   [[menu.footer]]
     weight = 1
@@ -101,3 +105,150 @@ publishDir = "docs"
       phone = "Phone: +88 01672 506 744"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"
+
+  [params.form]
+    [[params.form.numInput]]
+      name = "age"
+    [[params.form.numInput]]
+      name = "frequency / year"
+    [[params.form.numInput]]
+      name = "intensity"
+    [[params.form.numInput]]
+      name = "medications"
+    [[params.form.radio]]
+        name = "sex"
+      [[params.form.radio.buttons]]
+        button = "0"
+        name = "sex"
+      [[params.form.radio.buttons]]
+        button = "1"
+        name = "sex"
+    [[params.form.radio]]
+      name = "race"
+      [[params.form.radio.buttons]]
+        button = "0"
+        name = "race"
+      [[params.form.radio.buttons]]
+        button = "1"
+        name = "race"
+      [[params.form.radio.buttons]]
+        button = "2"
+        name = "race"
+      [[params.form.radio.buttons]]
+        button = "3"
+        name = "race"
+      [[params.form.radio.buttons]]
+        button = "4"
+        name = "race"
+    [[params.form.radio]]
+      name = "onset"
+      [[params.form.radio.buttons]]
+        button = "0"
+        name = "onset"
+      [[params.form.radio.buttons]]
+        button = "1"
+        name = "onset"
+      [[params.form.radio.buttons]]
+        button = "2"
+        name = "onset"
+    [[params.form.radio]]
+      name = "pain"
+      [[params.form.radio.buttons]]
+        button = "0"
+        name = "pain"
+      [[params.form.radio.buttons]]
+        button = "1"
+        name = "pain"
+      [[params.form.radio.buttons]]
+        button = "2"
+        name = "pain"
+      [[params.form.radio.buttons]]
+        button = "3"
+        name = "pain"
+      [[params.form.radio.buttons]]
+        button = "4"
+        name = "pain"
+    [[params.form.checkboxes]]
+      yes = "yes"
+      no = "no"
+      [[params.form.checkboxes.names]]
+        name = "primary"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "aura"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "ringing"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "visionBlurry"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "visionLossComplete"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "droopingFace"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "neckPain"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "lossOfSmell"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "lessOfTaste"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "seizure"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "nouseaOrVomiting"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "lightTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "loudNoiseTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "allergenTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "dehydrationTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "bendingOverTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "stressTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "periodTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "exerciseTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "sleepPatternChanTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "chemicalTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "alcoholTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "caffeineTrigger"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "restingAlleviator"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "waterAlleviator"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "darkRoomAlleviator"
+        testing = "testing"
+      [[params.form.checkboxes.names]]
+        name = "silenceAlleviator"
+        testing = "testing"

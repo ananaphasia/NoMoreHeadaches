@@ -3,127 +3,131 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.example.com/section/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/section/</loc>
   </url>
   
   <url>
-    <loc>https://www.example.com/blog/migrate-from-jekyll/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/blog/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/blog/linked-post/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/blog/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/blog/go-is-for-lovers/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/blog/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/blog/hugo-is-for-lovers/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/blog/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/blog/creating-a-new-theme/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/blog/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/blog/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/blog/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/categories/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/contact/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/contact/</loc>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/go/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/form/</loc>
+  </url>
+  
+  <url>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/golang/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/tags/golang/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/hugo/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/tags/hugo/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/ipsum/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/tags/ipsum/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/categories/lorem/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/categories/lorem/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/categories/programming/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/tags/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/programming/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/categories/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/categories/pseudo/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/categories/pseudo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/service/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/service/</loc>
   </url>
   
   <url>
-    <loc>https://www.example.com/categories/starting/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/tags/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/theme/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/tags/theme/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.example.com/work/</loc>
+    <loc>http://as4mo3.github.io/NoMoreHeadaches/docs/work/</loc>
   </url>
   
 </urlset>
