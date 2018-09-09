@@ -19,28 +19,28 @@
 <meta name="generator" content="Hugo 0.44" />
 
 
-<link rel="stylesheet" href="https://as4mo3.github.io/NoMoreHeadaches/css/owl.carousel.css" />
-<link rel="stylesheet" href="https://as4mo3.github.io/NoMoreHeadaches/css/bootstrap.min.css" />
-<link rel="stylesheet" href="https://as4mo3.github.io/NoMoreHeadaches/css/font-awesome.min.css" />
-<link rel="stylesheet" href="https://as4mo3.github.io/NoMoreHeadaches/css/airspace-local-fonts.css" />
-<link rel="stylesheet" href="https://as4mo3.github.io/NoMoreHeadaches/css/airspace.css" />
-<link rel="stylesheet" href="https://as4mo3.github.io/NoMoreHeadaches/css/style.css" />
-<link rel="stylesheet" href="https://as4mo3.github.io/NoMoreHeadaches/css/ionicons.min.css" />
-<link rel="stylesheet" href="https://as4mo3.github.io/NoMoreHeadaches/css/animate.css" />
-<link rel="stylesheet" href="https://as4mo3.github.io/NoMoreHeadaches/css/responsive.css" />
-<link rel="stylesheet" href="https://as4mo3.github.io/NoMoreHeadaches/css/syntax.css" />
+<link rel="stylesheet" href="//localhost/noMoreHeadaches/docs/css/owl.carousel.css" />
+<link rel="stylesheet" href="//localhost/noMoreHeadaches/docs/css/bootstrap.min.css" />
+<link rel="stylesheet" href="//localhost/noMoreHeadaches/docs/css/font-awesome.min.css" />
+<link rel="stylesheet" href="//localhost/noMoreHeadaches/docs/css/airspace-local-fonts.css" />
+<link rel="stylesheet" href="//localhost/noMoreHeadaches/docs/css/airspace.css" />
+<link rel="stylesheet" href="//localhost/noMoreHeadaches/docs/css/style.css" />
+<link rel="stylesheet" href="//localhost/noMoreHeadaches/docs/css/ionicons.min.css" />
+<link rel="stylesheet" href="//localhost/noMoreHeadaches/docs/css/animate.css" />
+<link rel="stylesheet" href="//localhost/noMoreHeadaches/docs/css/responsive.css" />
+<link rel="stylesheet" href="//localhost/noMoreHeadaches/docs/css/syntax.css" />
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="https://as4mo3.github.io/NoMoreHeadaches/js/bootstrap.min.js"></script>
-<script src="https://as4mo3.github.io/NoMoreHeadaches/js/owl.carousel.min.js"></script>
-<script src="https://as4mo3.github.io/NoMoreHeadaches/js/plugins.js"></script>
-<script src="https://as4mo3.github.io/NoMoreHeadaches/js/min/waypoints.min.js"></script>
-<script src="https://as4mo3.github.io/NoMoreHeadaches/js/jquery.counterup.js"></script>
+<script src="//localhost/noMoreHeadaches/docs/js/bootstrap.min.js"></script>
+<script src="//localhost/noMoreHeadaches/docs/js/owl.carousel.min.js"></script>
+<script src="//localhost/noMoreHeadaches/docs/js/plugins.js"></script>
+<script src="//localhost/noMoreHeadaches/docs/js/min/waypoints.min.js"></script>
+<script src="//localhost/noMoreHeadaches/docs/js/jquery.counterup.js"></script>
 
 
-<script src="https://as4mo3.github.io/NoMoreHeadaches/js/main.js"></script>
+<script src="//localhost/noMoreHeadaches/docs/js/main.js"></script>
 
 
 
@@ -69,17 +69,17 @@
             
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://as4mo3.github.io/NoMoreHeadaches/">Home</a></li>
+                <li><a href="//localhost/noMoreHeadaches/docs/">Home</a></li>
               
-                <li><a href="/NoMoreHeadaches/work/">Work</a></li>
+                <li><a href="/noMoreHeadaches/docs/work/">Work</a></li>
               
-                <li><a href="/NoMoreHeadaches/blog/">Blog</a></li>
+                <li><a href="/noMoreHeadaches/docs/blog/">Blog</a></li>
               
-                <li><a href="/NoMoreHeadaches/service/">Service</a></li>
+                <li><a href="/noMoreHeadaches/docs/service/">Service</a></li>
               
-                <li><a href="/NoMoreHeadaches/contact/">Contact</a></li>
+                <li><a href="/noMoreHeadaches/docs/contact/">Contact</a></li>
               
-                <li><a href="/NoMoreHeadaches/form/">Form</a></li>
+                <li><a href="/noMoreHeadaches/docs/form/">Form</a></li>
               
               </ul>
             </div>
@@ -188,9 +188,7 @@
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <form>
-            <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your message"></textarea>
-            </div>
+            
             
             <div class="form-group">
               <p>Primary</p>
@@ -329,11 +327,11 @@
             </div>
 
 
-            <button class="btn btn-default" onclick="submitButton();">Send message</button>
           </form>
-          <form id="submitForm" class="hidden" action="https://as4mo3.github.io/NoMoreHeadaches//php/toTextFile.php" method="POST" style="display: none;">
+          <form id="submitForm" class="hidden" action="//localhost/noMoreHeadaches/docs/php/toTextFile.php" method="POST" style="display: none;">
             <input type="text" name="submitForm" value="">
           </form>
+          <button class="btn btn-default" onclick="submitButton()">Send message</button>
         </div>
       </div>
     </div>
@@ -412,14 +410,14 @@ function submitButton() {
   for (var i = 0; i < x.length; i++) {
     issuesList[i+4] = x[i].value;
   }
-  return issuesList;
-  if (validateForm() && validateInputs()) {
-    var issuesListString;
-    issuesListString = issuesList.toString();
-    $(".hidden")[0].children[0].value = selectedListString;
-    document.getElementById("submitForm")[0].value = selectedListString;
-    document.getElementById("submitForm").submit();
-  }
+  
+  var issuesListString;
+  issuesListString = issuesList.toString();
+  $(".hidden")[0].children[0].value = issuesListString;
+  document.getElementById("submitForm")[0].value = issuesListString;
+  document.getElementById("submitForm").submit();
+  
+  
 }
 
 </script>

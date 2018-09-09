@@ -30,9 +30,9 @@
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <form>
-            <div class="form-group-2">
+            <!-- <div class="form-group-2">
               <textarea class="form-control" rows="3" placeholder="{{ .Site.Params.contact.form.message }}"></textarea>
-            </div>
+            </div> -->
             <!-- {{ range .Site.Params.form.checkboxes }}
             <div class="form-group">
               <input type="checkbox" class="checkbox" name="{{.name}}" value="yes">
@@ -176,11 +176,11 @@
             </div>
 
 
-            <button class="btn btn-default" onclick="submitButton();">{{ .Site.Params.contact.form.button }}</button>
           </form>
-          <form id="submitForm" class="hidden" action="{{.Site.BaseURL}}/php/toTextFile.php" method="POST" style="display: none;">
+          <form id="submitForm" class="hidden" action="{{.Site.BaseURL}}php/toTextFile.php" method="POST" style="display: none;">
             <input type="text" name="submitForm" value="">
           </form>
+          <button class="btn btn-default" onclick="submitButton()">{{ .Site.Params.contact.form.button }}</button>
         </div>
       </div>
     </div>
@@ -263,14 +263,14 @@ function submitButton() {
   for (var i = 0; i < x.length; i++) {
     issuesList[i+4] = x[i].value;
   }
-  return issuesList;
-  if (validateForm() && validateInputs()) {
-    var issuesListString;
-    issuesListString = issuesList.toString();
-    $(".hidden")[0].children[0].value = selectedListString;
-    document.getElementById("submitForm")[0].value = selectedListString;
-    document.getElementById("submitForm").submit();
-  }
+  // if (validateForm() && validateInputs()) {
+  var issuesListString;
+  issuesListString = issuesList.toString();
+  $(".hidden")[0].children[0].value = issuesListString;
+  document.getElementById("submitForm")[0].value = issuesListString;
+  document.getElementById("submitForm").submit();
+  // return issuesList;
+  // }
 }
 
 </script>
