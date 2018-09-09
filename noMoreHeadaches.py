@@ -5,7 +5,7 @@ import numpy
 # numpy.random.seed(7)
 
 # load pima indians dataset
-dataset = numpy.loadtxt("Datasets/noMoreHeadaches_dummy.csv", delimiter=",")
+dataset = numpy.loadtxt("noMoreHeadaches_dummy.csv", delimiter=",")
 # split into input (X) and output (Y) variables
 X = dataset[:,0:40]
 Y = dataset[:,41:44]
