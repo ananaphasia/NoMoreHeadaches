@@ -3,7 +3,11 @@
  * In airspace, it is called style.css
  * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
  * The original style.css is now called airspace.css
+<<<<<<< HEAD
  * 
+=======
+ *
+>>>>>>> 0ecd499c0df8138d220acbf9394b06ca8b927ab4
  */
 
 /*
@@ -37,6 +41,10 @@ h6 {
 h2 {
   font-size: 30px;
   font-weight: 400;
+<<<<<<< HEAD
+=======
+  text-align: center;
+>>>>>>> 0ecd499c0df8138d220acbf9394b06ca8b927ab4
 }
 h3 {
   font-size: 28px;
