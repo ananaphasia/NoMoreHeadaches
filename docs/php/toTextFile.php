@@ -6,7 +6,7 @@ if(isset($_POST['submitForm'])) {
         die('There was an error writing this file');
     }
     else {
-        header('Location: http://localhost/noMoreHeadaches/docs');
+        header('Location: https://as4mo3.github.io/NoMoreHeadaches/');
         die();
     }
 }
